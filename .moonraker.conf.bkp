@@ -19,18 +19,16 @@ cors_domains = *
 
 [history]
 
+[file_manager]
+enable_object_processing = True
+
 [update_manager]
 
-[update_manager client mainsail]
+[update_manager mainsail]
 type = web
-repo = meteyou/mainsail
+channel = beta
+repo = mainsail-crew/mainsail
 path = ~/mainsail
-
-[update_manager timelapse]
-type = git_repo
-primary_branch = main
-path = ~/moonraker-timelapse
-origin = https://github.com/mainsail-crew/moonraker-timelapse.git
 
 [update_manager sonar]
 type = git_repo
